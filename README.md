@@ -21,7 +21,7 @@ rpart.plot(tree)
 saveXML(pmml(tree), "rpart.pmml")
 ```
 
-The PMML file is in demo/src/main/resources/models/rpart.pmml
+The PMML file was saved in pmml-demo/src/main/resources/models/rpart.pmml
 
 ### Pre-requisites:
 - Java 8
