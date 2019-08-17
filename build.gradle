@@ -1,0 +1,22 @@
+plugins {
+	id 'org.springframework.boot' version '2.1.7.RELEASE'
+	id 'io.spring.dependency-management' version '1.0.7.RELEASE'
+	id 'java'
+}
+
+group = 'com.davide'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '8'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	compile('com.google.code.gson:gson:2.8.5')
+	compile('org.jpmml:pmml-evaluator:1.4.11')
+	compile('org.jpmml:pmml-evaluator-extension:1.4.11')
+	compile('org.glassfish.jaxb:jaxb-runtime:2.3.2')
+}
