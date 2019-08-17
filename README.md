@@ -23,7 +23,7 @@ saveXML(pmml(tree), "rpart.pmml")
 
 The PMML file was saved in pmml-demo/src/main/resources/models/rpart.pmml
 
-### Pre-requisites:
+### Prerequisites:
 - Java 8
 - Gradle 5.5
 
